@@ -22,7 +22,7 @@ func main() {
 	channelArr := []string{os.Getenv("CHANNEL_ID")}
 
 	// set file array (place path to file here)
-	fileArr := []string{"/Users/davidchung/Downloads/wine-reviews.csv"}
+	fileArr := []string{"/Users/davidchung/Downloads/wine-reviews.csv", "/Users/davidchung/Downloads/quicksort.py"}
 
 	// loop through files and upload
 	for i := 0; i < len(fileArr); i++ {
